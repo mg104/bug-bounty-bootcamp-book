@@ -1,0 +1,23 @@
+How to choose bug-bounty programs:
+
+1.) Type of company: Try to go for bug bounties offered by companies that have a lot of user-to-user interaction or which havd to manage user interactions with their applications (such as any company with the word "social" in its name). They typically have a scope for a lot of bugs since there's a lot of user interactivity built into their web applications. Con: More competition.
+
+The order of other companies should be as follows:
+    a.) General Web Applications : Companies with web applications but lesser user interactivity - like bank websites. Pro: Lesser competition than Social Median web applications.
+    b.) Mobile Applications : Companies with Mobile apps. These require know-how of web applications as well as mobile device on hand. More costly to buy device but lesser competition.
+    c.) APIs (Application Programming Interfaces): They require knowledge of both Web applications as well as mobile applications (plus maybe IoT hacking as well)
+    d.) Source Code and executables: These include finding vulnerabilities in the source code of a company's products. Requires knowledge of how web works, how the company's code works, etc. Much less competitive but more experience required and more difficult.
+    e.) Hardware and IoT: These require purchase of specific IoT device being hacked and set of skills niche to the device, but is least competitive. 
+
+2.) Bug Bounty Platforms:
+    Pros: a.) They offer assistance with getting paid by companies.
+          b.) They provide transparency about the companies' triage rates (number of bugs found in company's products), delay in payments, amounts of payments, etc
+    Cons: a.) They tend to have inexperienced "triagers" who might mess up with bug-report submission to the companies and there might get your report rejected due to non-reproducibility of the report's findings.
+          b.) Some companies don't use these platforms to host competitions
+          c.) Lots of competition!
+
+3.) Scope: It tells us what assets (say a subdomain a.example.com is allowed to be hacked but not b.example.com) and types of vulnerabilities in those assets are going to be rewarded. It's best to find a company that has the largest scopes as the attack surface would be big enough to enable being rewarded.
+
+4.) Payout Amounts: Competitions with no payout amounts have less competition and give more scope for learning.
+
+5.) Response Time: How fast the company responds to your reports and pays up. Platforms usually ensure transparency on this.
